@@ -31,20 +31,29 @@ COLUNAS_ALUNOS = ["turma", "aluno"]
 COLUNAS_RELATORIOS = ["data", "turma", "monitor", "alunos", "relatorio"]
 
 MONITORES = [
+    "Ana Freitas - 3º ano",
     "Arthur - Matemática",
+    "Alice - 1º ano",
+    "Beatriz - 3º ano",
+    "Cibele - 2º ano",
     "Davi - Ciências",
     "Dayane - História",
     "Gabriel - Física",
     "Gabriel - Português",
+    "Gabriela - Monitora",
+    "Isabela - 1º ano",
     "Lorraine - 4º ano",
     "Luiza - Matemática",
+    "Maria Fernanda - 1º ano",
     "Maria Eduarda - 5º ano",
+    "Mariana - Assistente de Coordenação",
     "Rafael - Matemática",
     "Rayanne - 5º ano",
     "Roberta - 4º ano",
     "Silvana - Coordenação",
     "Uill - Português",
     "Vinícius - Inglês",
+    "Yngrid - 2º ano",
 ]
 
 TURMAS_FIXAS = {
