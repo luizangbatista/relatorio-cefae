@@ -43,6 +43,7 @@ MONITORES = [
     "Gabriela - Monitora",
     "Isabela - 1º ano",
     "Lorraine - 4º ano",
+    "Lucas - Química",
     "Luiza - Matemática",
     "Maria Fernanda - 1º ano",
     "Maria Eduarda - 5º ano",
