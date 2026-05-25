@@ -153,7 +153,7 @@ TURMAS_FIXAS = {
         "VITORIA PINHEIRO SANTOS",
     ],
 
-    "Sétima manhã": [
+    "7º ano - Manhã": [
         "AMANDA MARINHO AMIN",
         "ANA BEATRIZ ALVES SANTOS",
         "ANNA CLARA GOMES DE OLIVEIRA",
