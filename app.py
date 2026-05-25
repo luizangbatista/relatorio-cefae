@@ -58,6 +58,101 @@ MONITORES = [
 ]
 
 TURMAS_FIXAS = {
+     "1° ano Manhã – Maria Fernanda": [
+        "Alice Emanuelly Januária Rosa",
+        "Bryan Emanuel Marques da Silva",
+        "Cecília Emanuelly Rodrigues Barbosa",
+        "Eduardo Lorenzzo Oliveira Costa",
+        "Emilly Vitória Ribeiro da Silva",
+        "Gael Antônio Pereira de Moura",
+        "Giovanna Zeferino de Jesus",
+        "Heitor Manoel Pereira Inácio",
+        "Herick Barcellos Bebiano",
+        "Maria Alice de Sousa",
+    ],
+
+    "1° ano Manhã – Isabela": [
+        "Alice Marques Ferreira",
+        "Ana Júlia Teixeira Garotti",
+        "Anthonny Lucca Chaves Ferreira",
+        "Hellena Martins Reis",
+        "Kaleb Teixeira Barbosa",
+        "Lavínia Ribeiro Costa de Almeida",
+        "Paolla Caroline Sancho Pereira",
+        "Willian Couto Mateus",
+    ],
+
+    "1° ano Tarde – Isabela": [
+        "Ana Helena Lopes do Santos",
+        "Arthur Barbosa de Souza",
+        "Helena Silva Luz",
+        "Isabele Rocha Bueno",
+        "Joaquim Moreira de Oliveira",
+        "Luiza Aziz dos Santos",
+        "Maria Cecília Cleto Barbosa",
+        "Maria Flor Valadares da Cruz Barbosa",
+    ],
+
+    "1° ano Tarde – Alice": [
+        "Davi Lucca de Freitas Alves",
+        "Laura Maria Pereira dos Santos",
+        "Maria Cecília dos Santos Silva",
+        "Sophia Alice Siqueira da Mata",
+        "Théo Gabriel Barbosa de Azevedo",
+    ],
+
+    "2° ano Manhã – Cibele": [
+        "Elton Felipe Pacheco dos Santos Teixeira",
+        "Gabriel Rosa Miguel Pires",
+        "Luiz Henrique Braga Sucupira",
+        "Maria Eduarda Gomes de Jesus",
+        "Maria Flor Ribeiro Vieira de Sena",
+        "Maria Vitória de Lima Nonato",
+        "Morgana Teixeira dos Santos",
+        "Raphael Vinícius Ferreira Viana",
+    ],
+
+    "2° ano Manhã – Yngrid": [
+        "Enzo Evangelista de Souza",
+        "Ester de Oliveira Lucas",
+        "Isabelly Vitória Rodrigues Miranda",
+        "Kael Henrique Lino Barbosa",
+        "Kauã Marcos Anibal Costa",
+        "Leandro Soares dos Santos",
+        "Miguel Almeida da Silva",
+        "Mikaelly Couto Mateus",
+        "Rebeca Ketlen Oliveira Santos",
+        "Shayara Silva Duarte",
+    ],
+
+    "3° ano Manhã – Ana Freitas": [
+        "Agatha Gomes Pessoa de Oliveira",
+        "Ana Beatriz Sousa Mendes Liandro",
+        "Arthur Benício Brígido Gomes",
+        "Arthur D’Ávila Santiago",
+        "Eliza Hevellen Borges Silva",
+        "Miguel Ferreira Coutinho Rocha",
+        "Théo Soares Ferenczi",
+        "Yan Gabriel Santos Silva",
+    ],
+
+    "3° ano Tarde – Beatriz": [
+        "Ana Sarah Pessoa Lamounier de Carvalho",
+        "Artur Costa Romão",
+        "Ayssa Santos Sodré",
+        "Benjamin Silva Reis",
+        "Bryan Davi da Silva Rocha",
+        "Daniel Vitor Pereira Lima",
+        "Davi Emmanuel Alcantara Gomes",
+        "Enzo Gabriel Soares Luiz",
+        "Ester Amorim Ferreira da Cruz",
+        "João Vítor de Souza Santos",
+        "Lívia Rocha de Oliveira Rodrigues",
+        "Maria Alice de Melo Gonçalves",
+        "Miguel Willians dos Reis",
+        "Rafaella Lara Ribeiro dos Santos",
+        "Victória Moreira dos Anjos Mendes",
+    ],
     "4º ano - Manhã": [
         "ANA VITORIA BATISTA DA SILVA",
         "EMANUELLY HELENA ALMEIDA LINO",
