@@ -1250,14 +1250,14 @@ def tela_consultar():
     st.title("Consultar relatórios enviados")
 
     senha_relatorios = st.text_input(
-    "Senha da área restrita",
-    type="password",
-    key="senha_relatorios_area"
-)
+        "Senha da área restrita",
+        type="password",
+        key="senha_relatorios_area"
+    )
 
-if senha_relatorios != SENHA_RELATORIOS:
-    st.warning("Digite a senha para acessar os relatórios.")
-    return
+    if senha_relatorios != SENHA_RELATORIOS:
+        st.warning("Digite a senha para acessar os relatórios.")
+        return
 
     df_relatorios = carregar_relatorios()
 
