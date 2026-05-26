@@ -38,6 +38,7 @@ MONITORES = [
     "Cibele - 2º ano",
     "Davi - Ciências",
     "Dayane - História",
+    "Ellen - Coordenação",
     "Gabriel - Física",
     "Gabriel - Português",
     "Gabriela - Monitora",
