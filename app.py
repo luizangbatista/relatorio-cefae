@@ -24,6 +24,7 @@ st.set_page_config(
 )
 
 SENHA_CORRETA = "*pazebem"
+SENHA_RELATORIOS = "*sua_senha_dos_relatorios"
 ARQUIVO_TIMBRADO = "timbrado.png"
 ID_PLANILHA = "1m6zSOCCcV-Dz7BKBrEaHk77Vlq2AOyqLlh6adqDAXQY"
 
@@ -1153,7 +1154,7 @@ def tela_home():
             ir_para("cadastrar_relatorio")
 
     with c2:
-        if st.button("Consultar relatórios enviados", use_container_width=True):
+        if st.button("Consultar relatórios enviados 🔒", use_container_width=True):
             st.session_state.modo_exclusao = False
             ir_para("consultar")
 
@@ -1247,6 +1248,16 @@ def tela_consultar():
     topo_app()
     botao_voltar()
     st.title("Consultar relatórios enviados")
+
+    senha_relatorios = st.text_input(
+    "Senha da área restrita",
+    type="password",
+    key="senha_relatorios_area"
+)
+
+if senha_relatorios != SENHA_RELATORIOS:
+    st.warning("Digite a senha para acessar os relatórios.")
+    return
 
     df_relatorios = carregar_relatorios()
 
