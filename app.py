@@ -24,7 +24,7 @@ st.set_page_config(
 )
 
 SENHA_CORRETA = "*pazebem"
-SENHA_RELATORIOS = "*sua_senha_dos_relatorios"
+SENHA_RELATORIOS = "testesenha123"
 ARQUIVO_TIMBRADO = "timbrado.png"
 ID_PLANILHA = "1m6zSOCCcV-Dz7BKBrEaHk77Vlq2AOyqLlh6adqDAXQY"
 
