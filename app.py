@@ -127,6 +127,22 @@ TURMAS_FIXAS = {
         "Shayara Silva Duarte",
     ],
 
+    "2° ano Tarde": [
+        "Agata Paixão Noronha",
+        "Angelina Neves Bergamaschine Mattos",
+        "Beatriz Reis Lopes Alves Gehrke",
+        "Benício Soares Souza",
+        "Davi Lucca Pereira da Silva",
+        "Emilly Valentine Rocha Lopes",
+        "Heitor Augusto Souza de Freitas Nunes",
+        "Heloá Patrícia Dias Almeida",
+        "Jonas Teixeira de Oliveira Peixoto",
+        "Lorenzzo Gael Antunes Silva",
+        "Maria Luiza Gomes Guedes",
+        "Suzana Sophia Procópio Ribeiro",
+        "Zoe Emanuela de Oliveira Estevam",
+    ],
+    
     "3° ano Manhã – Ana Freitas": [
         "Agatha Gomes Pessoa de Oliveira",
         "Ana Beatriz Sousa Mendes Liandro",
