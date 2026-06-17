@@ -32,6 +32,7 @@ COLUNAS_ALUNOS = ["turma", "aluno"]
 COLUNAS_RELATORIOS = ["data", "turma", "monitor", "alunos", "relatorio"]
 
 MONITORES = [
+    "Ana Coelho - Monitora",
     "Davi - Ciências",
     "Dayane - História",
     "Ellen - Coordenação",
