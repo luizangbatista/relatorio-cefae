@@ -474,7 +474,11 @@ def carregar_relatorios():
         df[col] = df[col].fillna("").astype(str).str.strip()
 
     df = df[COLUNAS_RELATORIOS].copy()
-    df["data_dt"] = pd.to_datetime(df["data"], errors="coerce")
+    df["data_dt"] = pd.to_datetime(
+        df["data"],
+        errors="coerce",
+        dayfirst=True,
+    ).dt.normalize()
     df["alunos_lista"] = df["alunos"].str.split(";").apply(
         lambda lista: {item.strip() for item in lista if item.strip()}
     )
@@ -586,10 +590,10 @@ def filtrar_relatorios(df, turma=None, aluno=None, monitor=None, data_ini=None, 
         filtrado = filtrado[filtrado["alunos_lista"].apply(lambda s: aluno in s)]
 
     if data_ini:
-        filtrado = filtrado[filtrado["data_dt"] >= pd.Timestamp(data_ini)]
+        filtrado = filtrado[filtrado["data_dt"] >= pd.Timestamp(data_ini).normalize()]
 
     if data_fim:
-        filtrado = filtrado[filtrado["data_dt"] <= pd.Timestamp(data_fim)]
+        filtrado = filtrado[filtrado["data_dt"] <= pd.Timestamp(data_fim).normalize()]
 
     return filtrado.sort_values("data_dt", ascending=False).reset_index(drop=True)
 
@@ -1126,9 +1130,19 @@ def tela_consultar():
     if usar_filtro_data:
         c4, c5 = st.columns(2)
         with c4:
-            data_ini = st.date_input("Data inicial", value=date.today(), format="DD/MM/YYYY", key="data_ini_consulta")
+            data_ini = st.date_input(
+                "Data inicial",
+                value=date(date.today().year, 1, 1),
+                format="DD/MM/YYYY",
+                key="data_ini_consulta",
+            )
         with c5:
-            data_fim = st.date_input("Data final", value=date.today(), format="DD/MM/YYYY", key="data_fim_consulta")
+            data_fim = st.date_input(
+                "Data final",
+                value=date.today(),
+                format="DD/MM/YYYY",
+                key="data_fim_consulta",
+            )
     else:
         data_ini = None
         data_fim = None
