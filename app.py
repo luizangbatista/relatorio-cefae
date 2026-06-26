@@ -48,6 +48,7 @@ MESES = {
 
 MONITORES = [
     "Ana Coelho - Monitora",
+    "Arthur - Matemática",
     "Davi - Ciências",
     "Dayane - História",
     "Ellen - Coordenação",
